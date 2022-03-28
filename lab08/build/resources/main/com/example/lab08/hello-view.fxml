@@ -5,6 +5,7 @@
 <?import javafx.geometry.Insets?>
 
 <GridPane fx:controller="com.example.lab08.HelloController" xmlns:fx="http://javafx.com/fxml">
+    <!-- Lab 08 -->
     <MenuBar>
         <menus>
             <Menu text="File">
@@ -18,6 +19,7 @@
             </Menu>
         </menus>
     </MenuBar>
+    <!-- Lab 08 -->
 
     <TableView fx:id="tableView" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="555">
         <columns>
