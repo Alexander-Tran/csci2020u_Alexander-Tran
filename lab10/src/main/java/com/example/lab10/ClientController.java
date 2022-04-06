@@ -21,7 +21,7 @@ public class ClientController {
             PrintWriter writer = new PrintWriter(socket.getOutputStream());
             writer.println(usernameField.getText() + ": " + messageField.getText());
             writer.flush();
-            usernameField.clear();
+            //usernameField.clear();
             messageField.clear();
 
             //Close socket
